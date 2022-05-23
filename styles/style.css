@@ -8,6 +8,7 @@ body{
 
 header{
     grid-area: header;
+    background-color:rgb(255, 238, 254);
     justify-self: center;
     align-self: center;
     font-family: 'Open Sans', sans-serif;
