@@ -14,6 +14,8 @@ Esri_WorldGrayCanvas.addTo(map)
 let inState = L.featureGroup();
 let outOfState = L.featureGroup();
 let intl = L.featureGroup();
+let countTaxYes = 0;
+let countTaxNo = 0;
 
 //define layers
 let layers = {
@@ -86,10 +88,44 @@ function processData(results){
     results.data.forEach(data => {
         console.log(data)
         addMarker(data)
+        if(data["Do you think the current progressive income tax brackets are fair?"] == 'Yes'){
+            countTaxYes=countTaxYes + 1;
+        }
+        else{
+            countTaxNo=countTaxNo + 1;
+        }
+        //addChart()
     })
     inState.addTo(map)
     outOfState.addTo(map)
     intl.addTo(map)
 }
 
+
+function addChart(){
+    // create the new chart here, target the id in the html called "chart"
+    new Chart(document.getElementById("pieChartTaxBracket"), {
+        type: 'pie', //can change to 'bar','line' chart or others
+        data: {
+            // labels for data here
+        labels: ["Yes", "No"],
+        datasets: [
+            {
+            label: "Count",
+            backgroundColor: ["green", "red"],
+            data: [countTaxYes,countTaxNo]
+            }
+        ]
+        },
+        options: {
+            responsive: true, //turn on responsive mode changes with page size
+            maintainAspectRatio: false, // if `true` causes weird layout issues
+            legend: { display: true },
+            title: {
+                display: true,
+                text: 'Survey Respondants'
+            }
+        }
+    });
+}
 loadData(dataUrl)
