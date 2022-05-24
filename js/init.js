@@ -123,7 +123,7 @@ function addChart(){
             legend: { display: true },
             title: {
                 display: true,
-                text: 'Survey Respondants'
+                text: 'Are the Current Tax Brackets Fair?'
             }
         }
     });

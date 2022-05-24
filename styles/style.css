@@ -2,13 +2,13 @@ body{
     display: grid;
     grid-template-rows: 50px auto auto;
     grid-template-areas: "header" "main_content" "footer";
-    background-color: rgb(255, 216, 253);
+    background-color: rgb(254, 238, 252);
     gap: 80px;
 }
 
 header{
     grid-area: header;
-    background-color:rgb(255, 238, 254);
+    background-color:rgb(255, 255, 255);
     justify-self: center;
     align-self: center;
     font-family: 'Open Sans', sans-serif;
@@ -22,8 +22,11 @@ header{
 
 .main{
     grid-area: main_content;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "main_map content";
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-rows: 3fr 2fr;
+    grid-template-areas: 
+    "main_map main_map main_map content content content"
+    "tax tax nec nec qual qual";
     display: grid;
 }
 
@@ -31,12 +34,15 @@ header{
     grid-area: content;
     display: grid;
     grid-template-rows: 1fr 3fr; 
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: "survey" "buttonHome" 
+    grid-template-areas: "survey" "buttonHome"
+}
+
+#chart{
+    height:10vh;
 }
 
 #the_map{
-    height:80vh;
+    height:100vh;
     grid-area: main_map;
 }
 
@@ -67,13 +73,16 @@ header{
 }
 
 #pieChartTaxBracket{
-    height:10vh; 
+    grid-area: tax;
+    height: 10vh;
 }
 
 #pieChartNecessaryIncome{
-    grid-area: necessaryIncome;
+    grid-area: nec;
+    height: 100px;
 }
 
 #qualityOfLife{
-    grid-area: quality;
+    grid-area: qual;
+    height: 100px;
 }
