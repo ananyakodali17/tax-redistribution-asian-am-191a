@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 50px auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas: "header" "main_content" "footer";
     background-color: white;
     gap: 80px;
@@ -15,6 +15,7 @@ header{
     color: pink;
     margin-left: 50px;
     margin-right: 50px;
+    
 
     
 }
@@ -29,21 +30,24 @@ header::after polygon {
 .main{
     background: linear-gradient(to bottom, pink 0%, white 100%);
   border-bottom: 1px solid rgba(0, 0, 0, .2);
-  padding: 10vh 0 80vh;
-  position: relative;
   text-align: center;
   overflow: hidden;
     grid-area: main_content;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "main_map content";
     display: grid;
 }
 
+.chartsforreal{
+    display: grid;
+
+}
 #contents{
     grid-area: content;
     display: grid;
-    grid-template-rows: 2fr 2fr; 
-    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 200px 200px; 
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: "survey" "buttonHome" 
 }
 
@@ -110,6 +114,10 @@ header::after polygon {
     grid-area: buttonHome;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.prettybuttons{
     background-color: #e1ecf4;
     border-radius: 3px;
     border: 1px solid #7aa7c7;
@@ -135,8 +143,6 @@ header::after polygon {
     white-space: nowrap;
     margin-left: 50px;
 }
-
-
 
 #placeForButtons{
     grid-area: buttonHome;

@@ -85,6 +85,7 @@ function createButtons(lat,lng,title){
     newButton.innerHTML = title; // gives the button a title
     newButton.setAttribute("lat",lat); // sets the latitude 
     newButton.setAttribute("lng",lng); // sets the longitude 
+    newButton.className= "prettybuttons";
     newButton.addEventListener('click', function(){
         map.flyTo([lat,lng]); //this is the flyTo from Leaflet
     })
