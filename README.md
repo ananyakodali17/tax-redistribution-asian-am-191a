@@ -1,6 +1,6 @@
 # Tax Evaders - student workers website
 ### By Jenny and Ananya
-> Tax Evaders is a map application (mapplication) website where student workers at UCLA can share their stories about how working at UCLA has affected their lives, and the mapping tool displays their workplace and their stories. Through this website, we hope to create a community where student workers feel comfortable sharing their narratives and feel empowered by others in a similar situation.
+> Tax Evaders is a map application (mapplication) website where student workers at UCLA can share their stories about how working at UCLA has affected their lives, and the mapping tool anonymously displays their workplace and their stories. Through this website, we hope to create a community where student workers feel comfortable sharing their narratives and feel empowered by others in a similar situation.
 > 
 > This website functions best on Firefox.
 
