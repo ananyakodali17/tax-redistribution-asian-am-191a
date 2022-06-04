@@ -14,21 +14,21 @@
 ## Objective
 #### What social problem is being addressed?
     
-We are looking at student workers at UCLA and how their jobs affect them. Working at a job while also having time to focus on academics, extracurriculars, professional development, social time, and more is something that many students at UCLA struggle with, but because talking about financials is such a taboo subjext in today's society, student workers may not feel comfortable discussing these issues. Therefore, we wanted to create a website where student workers feel comfortable sharing their narratives on how working has impacted them, and to create a community of student workers in similar situations. 
+We are looking at student workers at UCLA and how their jobs affect them. Working at a job while also having time to focus on academics, extracurriculars, professional development, social time, and more is something that many students at UCLA struggle with, but because talking about financials is such a taboo subject in today's society, student workers may not feel comfortable discussing these issues. Therefore, we wanted to create a website where student workers feel comfortable sharing their narratives on how working has impacted them, and to create a community of student workers in similar situations. 
     
 
 ## Who is being empowered?
     
-The empowered community in our mapplication is student workers at UCLA. A large percentage of UCLA students work jobs, either on- or off-campus, to help cover the costs of attending this school, but because discussing finances is frowned upon in today's society, they do not have a space to feel comfortable airing their grievances and struggles because of their jobs. So, we wanted to create this mapplication to empower student workers and allow them to share their stories. The website will empower UCLA student workers through creating a community where students know they are not on their own, as well as create somewhat of a forum (the map pop-ups) for students to share their stories/air their grievances. Moreover, it serves as a database/library for all of these students' experiences which can ultimately be collected and used to advocate to the UCLA administration to improve student worker packages.
+The empowered community in our mapplication is student workers at UCLA. A large percentage of UCLA students work jobs, either on- or off-campus, to help cover the costs of attending this school, but because discussing finances is frowned upon in today's society, they do not have a space to feel comfortable airing their grievances and struggles caused by their jobs. So, we wanted to create this mapplication to empower student workers and allow them to share their stories. The website will empower UCLA student workers through creating a community where students know they are not on their own, as well as create somewhat of a forum (the map and charts) for students to share their stories/air their grievances. Moreover, it serves as a database/library for all of these students' experiences which can ultimately be collected and used to advocate to the UCLA administration to improve student worker packages.
 
 
 ## What technology was used?
 
-We use open source software including Leaflet and Papaparse as well as HTML, Javascript, and CSS and in order to create our webpage. We also use Google surveys to collect our data and google sheets to view our collected data and link it into our HTML code.
+We use open source software including Leaflet and Papaparse as well as HTML, Javascript, and CSS and in order to create our webpage. We also use Google surveys to collect our data and Google Sheets to view our collected data and link it into our HTML code.
 
    #### What technical and ethical problems could there be in developing this tool?
     
-  There may be ethical problems in developing this tool because we are going to collect some information on students' financial situations, but to combat     this potential issue we will keep our survey 100% anonymous and allow people to delete their responses if they feel any such need to.
+There may be ethical problems in developing this tool because we are collecting some information on students' financial situations, as well as the address of their workplace, but to combat this potential issue we will keep our survey 100% anonymous and allow people to delete their responses if they feel any such need to.
 
 
 ## How can it be repurposed?
@@ -40,19 +40,19 @@ In the long term, we hope to see this tool being utilized to foster community bu
 ### Features
 1. **The map**
 
-Our interactive map shows the boundary of UCLA, and the markers indicate the different places that the students who filled out the survey work. When you click on either inside or outside of the boundary, the markers for the opposite location will disappear and the interactive graphs on the right side of the screen will appear.
+Our interactive map shows the boundary of UCLA, and the markers indicate the different places that the students who filled out the survey work. The boundary indicates whether a student works or has worked on campus or off campus.
 
 2. **Charts**
 
-Our interactive map will first pop up with a chart depicting the different types of college students: Undergraduate, Graduate, Nontraditional Undergraduate, Post-Graduate, or other. When you click on each bar, it will take you to the next chart, which depicts why people chose to work in a pie chart. Finally, upon clicking on a portion of the pie chart, a modal will pop up containing user stories about what they wish would change about their job as well as their biggest grievances with the job or why they quit. 
+Our interactive map will first pop up with a pie chart showing the distribution of students working on campus versus off campus. Once the user clicks on either slice of the pie chart, the next pie chart that appears denotes the different types of college students: Undergraduate, Graduate, Nontraditional Undergraduate, Post-Graduate, or other. When you click on each bar, it will take you to the next chart, which depicts why people chose to work in a pie chart. Finally, upon clicking on a portion of the pie chart, a modal will pop up containing user stories about what they wish would change about their job as well as their biggest grievances with the job or why they quit. 
 
 3. **Menu Bar**
 
-At the top of our website, there is a menu bar which allows access to the home page (where our map is), a page to learn more about the creators, a large button link to our survey, a tab to contact us, and a button that opens a popup which explains more about our project.
+At the top of our website, there is a menu bar which allows access to the home page (where our map is), a page to learn more about the creators, a large button link to our survey, a page to contact us, and a button that opens a modal which explains more about our project.
 
-4. **Description**
+4. **Project information**
 
-Underneath our map and slideshow, there is another short description about our project.
+Underneath our map and slideshow, there is another description about our project, including a short explanation of the community we hope to empower and what we hope these students gain from our website. Underneath, we have a short explanation of the anonymous nature of all of the data we have collected, and finally we have a short explanation of what we hope that this website can be used for in the future.
 
 5. **About the Creators Page**
 
