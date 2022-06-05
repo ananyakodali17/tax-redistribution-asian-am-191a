@@ -44,7 +44,7 @@ Our interactive map shows the boundary of UCLA, and the markers indicate the dif
 
 2. **Charts**
 
-Our interactive map will first pop up with a pie chart showing the distribution of students working on campus versus off campus. Once the user clicks on either slice of the pie chart, the next pie chart that appears denotes the different types of college students: Undergraduate, Graduate, Nontraditional Undergraduate, Post-Graduate, or other. When you click on each bar, it will take you to the next chart, which depicts why people chose to work in a pie chart. Finally, upon clicking on a portion of the pie chart, a modal will pop up containing user stories about what they wish would change about their job as well as their biggest grievances with the job or why they quit. 
+Our interactive map will first pop up with a pie chart showing the distribution of students working on campus versus off campus. Once the user clicks on either slice of the pie chart, the next pie chart that appears denotes the different types of college students: Undergraduate, Graduate, Nontraditional Undergraduate, Post-Graduate, or other. When you click on each segment, it will take you to the next chart, which depicts why people chose to work in a pie chart. Finally, upon clicking on a portion of the pie chart, a modal will pop up containing user stories about what they wish would change about their job as well as their biggest grievances with the job or why they quit. 
 
 3. **Menu Bar**
 
